@@ -4,6 +4,70 @@
 
 @import "minimal-mistakes";
 
+:root {
+  --ink: #0f172a;
+  --muted-ink: #4b5563;
+  --canvas: #f8fafc;
+  --accent: #0f766e;
+  --accent-soft: #ccfbf1;
+  --highlight: #fbbf24;
+}
+
+body {
+  background: radial-gradient(circle at 20% 20%, #e0f2fe, transparent 25%),
+    radial-gradient(circle at 80% 0%, #ccfbf1, transparent 22%),
+    var(--canvas);
+  color: var(--ink);
+}
+
+.masthead {
+  background: #ffffffd9;
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.masthead__menu {
+  font-weight: 600;
+}
+
+.masthead__menu-item a {
+  color: var(--ink);
+  padding: 0.4rem 0.5rem;
+  border-radius: 8px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.masthead__menu-item a:hover,
+.masthead__menu-item a:focus {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.greedy-nav .site-title {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.page__title {
+  color: var(--ink);
+}
+
+.page__content a {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.page__content a:hover {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 2px solid var(--highlight);
+}
+
+.page__content h2,
+.page__content h3 {
+  color: var(--ink);
+}
+
 .filter-chip-bar {
   display: flex;
   flex-wrap: wrap;
@@ -14,7 +78,7 @@
 .filter-chip {
   padding: 0.35rem 0.85rem;
   border-radius: 999px;
-  border: 1px solid #d9d9d9;
+  border: 1px solid #cbd5e1;
   background: #fff;
   cursor: pointer;
   transition: all 0.2s ease;
@@ -22,14 +86,14 @@
 }
 
 .filter-chip:hover {
-  border-color: #111;
-  color: #111;
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
 .filter-chip.is-active {
-  background: #111;
+  background: var(--accent);
   color: #fff;
-  border-color: #111;
+  border-color: var(--accent);
 }
 
 .post-card-grid {
@@ -39,12 +103,14 @@
 }
 
 .post-card {
-  border: 1px solid #e8e8e8;
+  border: 1px solid #e2e8f0;
   border-radius: 12px;
   padding: 1rem;
   display: flex;
   flex-direction: column;
   height: 100%;
+  background: #fff;
+  box-shadow: 0 10px 30px -22px rgba(15, 23, 42, 0.45);
 }
 
 .post-card h2 {
@@ -63,4 +129,9 @@
   margin-top: auto;
   font-size: 0.9rem;
   color: #555;
+}
+
+.page__footer .theme-info,
+.page__footer .powered-by {
+  display: none;
 }
