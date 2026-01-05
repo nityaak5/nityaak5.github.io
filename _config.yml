@@ -44,9 +44,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name: "Nityaa Kalra"
+  # name: "Nityaa Kalra"
   avatar: "/assets/images/nityaa_kalra.jpg"
-  bio: "AI researcher | NLP |  Responsible AI | Explainable AI"
+  # bio: "AI researcher | NLP |  Responsible AI | Explainable AI"
   links:
     - label: "Email (Work)"
       icon: "fas fa-fw fa-envelope"
@@ -103,7 +103,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: false
+      author_profile: true
 
 category_archive:
   type: liquid
