@@ -20,7 +20,7 @@ permalink: /experience/
       <span class="timeline-location">Nijmegen, Gelderland, The Netherlands</span>
     </div>
     <h2>Research Assistant · Radboud University</h2>
-    <p class="timeline-summary"> As a researcher at the OSAI Index, a community-driven public resource on open sourceness of Generative AI systems. I contributed to defining model openness, licensing, and EU regulation of Gen AI systems and providers. Check out: (OSAI Index)[https://osai-index.eu] </p>
+    <p class="timeline-summary"> As a researcher at the OSAI Index, a community-driven public resource on open sourceness of Generative AI systems. I contributed to defining model openness, licensing, and EU regulation of Gen AI systems and providers. Check out: [OSAI Index](https://osai-index.eu) </p>
     
   </article>
 
