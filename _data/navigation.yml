@@ -1,6 +1,8 @@
 main:
   - title: "About"
     url: /
+  - title: "Experience"
+    url: /experience/
   - title: "Blog"
     url: /blog/
   - title: "Thinking Aloud"
@@ -9,3 +11,5 @@ main:
     url: /projects/
   - title: "Research"
     url: /research/
+ 
+
