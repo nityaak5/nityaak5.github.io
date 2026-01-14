@@ -14,23 +14,27 @@ Welcome to the blog. Posts here cover updates, notes, and reflections. Use the f
   <button class="filter-chip" data-filter="life">Life</button>
 </div>
 
-{% assign blog_posts = site.posts | where_exp: "post", "post.categories contains 'blog' or post.categories contains 'thinking-aloud'" %}
-
-{% if blog_posts.size > 0 %}
-<div class="post-card-grid" id="blog-posts">
-  {% for post in blog_posts %}
-  {% assign downcase_categories = post.categories | join: ' ' | downcase %}
-  <article class="post-card" data-categories="{{ downcase_categories }}">
-    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-    <p class="post-card-meta">{{ post.date | date: "%B %d, %Y" }}</p>
-    {% if post.excerpt %}
-    <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
+{% capture blog_cards %}
+  {% for post in site.posts %}
+    {% if post.categories contains "blog" or post.categories contains "thinking-aloud" %}
+      {% assign downcase_categories = post.categories | join: ' ' | downcase %}
+      <article class="post-card" data-categories="{{ downcase_categories }}">
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p class="post-card-meta">{{ post.date | date: "%B %d, %Y" }}</p>
+        {% if post.excerpt %}
+        <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
+        {% endif %}
+        {% if post.categories %}
+        <p class="post-card-tags">Categories: {{ post.categories | join: ", " }}</p>
+        {% endif %}
+      </article>
     {% endif %}
-    {% if post.categories %}
-    <p class="post-card-tags">Categories: {{ post.categories | join: ", " }}</p>
-    {% endif %}
-  </article>
   {% endfor %}
+{% endcapture %}
+
+{% if blog_cards | strip != "" %}
+<div class="post-card-grid" id="blog-posts">
+  {{ blog_cards }}
 </div>
 {% else %}
 <p class="notice">No blog posts yet. Add new posts under <code>_posts</code> with a <code>blog</code> or <code>thinking-aloud</code> category to have them appear here.</p>
