@@ -8,12 +8,13 @@ Welcome to the blog. Posts here cover updates, notes, and reflections. Use the f
 
 <div class="filter-chip-bar" id="blog-filter">
   <button class="filter-chip is-active" data-filter="all">All</button>
+  <button class="filter-chip" data-filter="thinking-aloud">Thinking Aloud</button>
   <button class="filter-chip" data-filter="research">Research</button>
   <button class="filter-chip" data-filter="tech">Tech</button>
   <button class="filter-chip" data-filter="life">Life</button>
 </div>
 
-{% assign blog_posts = site.posts | where_exp: "post", "post.categories contains 'blog'" %}
+{% assign blog_posts = site.posts | where_exp: "post", "post.categories contains 'blog' or post.categories contains 'thinking-aloud'" %}
 
 {% if blog_posts.size > 0 %}
 <div class="post-card-grid" id="blog-posts">
@@ -32,7 +33,7 @@ Welcome to the blog. Posts here cover updates, notes, and reflections. Use the f
   {% endfor %}
 </div>
 {% else %}
-<p class="notice">No blog posts yet. Add new posts under <code>_posts</code> with a <code>blog</code> category to have them appear here.</p>
+<p class="notice">No blog posts yet. Add new posts under <code>_posts</code> with a <code>blog</code> or <code>thinking-aloud</code> category to have them appear here.</p>
 {% endif %}
 
 <script>

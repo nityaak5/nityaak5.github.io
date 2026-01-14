@@ -4,6 +4,9 @@ layout: single
 permalink: /experience/
 ---
 
+Highlights from roles, internships, and research work. You can also find details on my
+<a href="https://www.linkedin.com/in/nityaakalra/" target="_blank" rel="noopener">LinkedIn profile</a>.
+
 <section class="timeline">
   <article class="timeline-card">
     <div class="timeline-meta">
@@ -20,7 +23,10 @@ permalink: /experience/
       <span class="timeline-location">Nijmegen, Gelderland, The Netherlands</span>
     </div>
     <h2>Research Assistant · Radboud University</h2>
-    <p class="timeline-summary"> As a researcher at the OSAI Index, a community-driven public resource on open sourceness of Generative AI systems. I contributed to defining model openness, licensing, and EU regulation of Gen AI systems and providers. Check out: [OSAI Index](https://osai-index.eu) </p>
+    <p class="timeline-summary">
+      As a researcher at the OSAI Index, a community-driven public resource on open sourceness of Generative AI systems, I contributed to defining model openness, licensing, and EU regulation of Gen AI systems and providers.
+      <a href="https://osai-index.eu" target="_blank" rel="noopener">OSAI Index</a>.
+    </p>
     
   </article>
 
@@ -48,7 +54,7 @@ permalink: /experience/
       <span class="timeline-location">Gurugram, Haryana, India</span>
     </div>
     <h2>Data Analyst · KPMG India</h2>
-    <p class="timeline-summary">I built POCs related for sentiment analysis for crime investigation work for the state government. </p>
+    <p class="timeline-summary">I built POCs related to sentiment analysis for crime investigation work for the state government.</p>
   </article>
 
   <article class="timeline-card">
@@ -57,7 +63,7 @@ permalink: /experience/
       <span class="timeline-location">Bengaluru, Karnataka, India</span>
     </div>
     <h2>Software Engineer Intern · Dell Technologies</h2>
-    <p class="timeline-summary">I automated the email generation process for reconcialiation failures and built dashbords to monitor the outcomes. </p>
+    <p class="timeline-summary">I automated the email generation process for reconciliation failures and built dashboards to monitor the outcomes.</p>
   </article>
 
 </section>
