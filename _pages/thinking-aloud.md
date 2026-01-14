@@ -3,8 +3,8 @@ title: "Thinking Aloud"
 layout: single
 permalink: /thinking-aloud/
 ---
+These are very much a “thinking while reading” posts. I am not aiming for completeness or technical depth here, just trying to make sense of what I read, what confused me, and what stuck.
 
-Ideas in progress and exploratory notes live here. Filter by category to skim the threads that interest you.
 
 <div class="filter-chip-bar" id="thinking-filter">
   <button class="filter-chip is-active" data-filter="all">All</button>
