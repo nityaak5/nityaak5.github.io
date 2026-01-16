@@ -232,9 +232,8 @@ body {
   aspect-ratio: 1 / 1;
   border-radius: 50%;
   overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
+  line-height: 0;
   flex-shrink: 0;
 }
 
@@ -246,4 +245,6 @@ body {
   display: block;
   margin: 0;
   padding: 0;
+  max-width: none;
+  max-height: none;
 }
