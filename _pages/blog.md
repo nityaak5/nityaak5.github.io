@@ -3,7 +3,7 @@ title: "Blog"
 layout: single
 permalink: /blog/
 ---
-I write about tech, lifestyle and everything in between. Use filters to jump to what you wish to read. 
+I write about my research, tech, papers i read and little things that make life beautiful :). Use filters to jump to what you wish to read. 
 
 <div class="filter-chip-bar" id="blog-filter">
   <button class="filter-chip is-active" data-filter="all">All</button>
