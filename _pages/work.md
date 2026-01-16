@@ -58,7 +58,7 @@ Currently, I work on small language models and LLM fairness at Tilburg Universit
 
   <article class="post-card">
     <h3>Beyond Medical Records: Endometriosis Storytelling on Reddit</h3>
-    <p class="post-card-meta">Sep 2023 - Jan 2024 · Radboud University</p>
+    <p class="post-card-meta">Sep 2023 - Jan 2024</p>
     <p>Analyzed Reddit discussions using emotion classification and topic modeling to surface themes of struggles, pain, and surgery.</p>
     <p>Validated themes with coherence analysis and compared results to existing research.</p>
     <p class="post-card-tags">Skills: NLP, deep learning, Python, LLMs</p>
