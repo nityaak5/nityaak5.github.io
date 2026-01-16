@@ -39,12 +39,6 @@ I write about tech, lifestyle and everything in between. Use filters to jump to 
 
 <hr />
 
-<h2>Medium</h2>
-<p>
-  Also check out: 
-  <a href="https://medium.com/@nityaakalra5" target="_blank" rel="noopener">Medium</a>.
-</p>
-
 
 <script>
   (function () {
