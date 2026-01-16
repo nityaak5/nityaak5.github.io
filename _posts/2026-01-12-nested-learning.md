@@ -10,6 +10,8 @@ tags:
   
 ---
 
+<p>Original Medium post: <a href="https://medium.com/@nityaakalra5/reading-neurips-2025-nested-learning-the-illusion-of-deep-learning-architecture-7eca90e765f4" target="_blank" rel="noopener">Nested Learning</a>.</p>
+
 In NeurIPS 2025, Google Research introduced [Nested Learning: The Illusion of Deep Learning Architecture](https://abehrouz.github.io/files/NL.pdf). At first glance, it is quite dense. The kind of paper where you know you won’t absorb everything in one sitting, but the title alone makes you curious enough to try.
 The title immediately caught my attention. The illusion of deep learning architecture is a strong claim. Why do they call it an illusion? Have we been thinking about deep learning systems the wrong way all this time? Well, not exactly wrong, but according to the paper, maybe incomplete.
 
