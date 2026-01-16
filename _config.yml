@@ -45,7 +45,7 @@ plugins:
 
 author:
   # name: "Nityaa Kalra"
-  avatar: "/assets/images/nityaa_kalra.jpg"
+  avatar: "/assets/images/bio-photo.jpg"
   # bio: "AI researcher | NLP |  Responsible AI | Explainable AI"
   links:
     - label: "Email (Work)"
