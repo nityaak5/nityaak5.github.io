@@ -1,12 +1,10 @@
 main:
   - title: "About"
     url: /
-  - title: "Experience"
-    url: /experience/
   - title: "Blog"
     url: /blog/
-  - title: "Projects"
-    url: /projects/
-  - title: "Research"
-    url: /research/
+  - title: "Experience"
+    url: /experience/
+  - title: "Projects & Research"
+    url: /work/
  

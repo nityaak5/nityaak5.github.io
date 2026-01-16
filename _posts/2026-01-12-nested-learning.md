@@ -4,6 +4,7 @@ date: 2026-01-12
 categories:
   - thinking-aloud
   - research
+  - tech 
 tags:
   - nested learning
   - deep learning
