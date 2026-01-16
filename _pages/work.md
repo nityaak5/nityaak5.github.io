@@ -13,7 +13,7 @@ Currently, I work on small language models and LLM fairness at Tilburg Universit
     <h3>Master's Thesis: Thematic Bias in Book Recommender Systems</h3>
     <p class="post-card-meta">Radboud University · 2025</p>
     <p>Explored thematic bias in book recommender systems and its impact on users.</p>
-    <p><a href="https://arxiv.org/abs/2508.15643" target="_blank" rel="noopener">Read the thesis</a> or read the longer version <a href="https://www.cs.ru.nl/masters-theses/2025/N_Kalra___Reading_Between_the_Lines%EA%9E%89_A_Study_of_Thematic_Bias_in_Book_Recommender_Systems.pdf" target="_blank" rel="noopener">here</a> </p>
+    <p><a href="https://www.cs.ru.nl/masters-theses/2025/N_Kalra___Reading_Between_the_Lines%EA%9E%89_A_Study_of_Thematic_Bias_in_Book_Recommender_Systems.pdf" target="_blank" rel="noopener">Read the thesis</a> or read the shorter version <a href="https://arxiv.org/abs/2508.15643" target="_blank" rel="noopener">here</a>.</p>
   </article>
 
   <article class="post-card">

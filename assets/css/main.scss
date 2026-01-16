@@ -5,17 +5,17 @@
 @import "minimal-mistakes";
 
 :root {
-  --ink: #0f172a;
-  --muted-ink: #4b5563;
-  --canvas: #f8fafc;
-  --accent: #0f766e;
-  --accent-soft: #ccfbf1;
-  --highlight: #fbbf24;
+  --ink: #1f1a17;
+  --muted-ink: #6f5d52;
+  --canvas: #f6efe8;
+  --accent: #b4532a;
+  --accent-soft: #fde7d4;
+  --highlight: #e0a458;
 }
 
 body {
-  background: radial-gradient(circle at 20% 20%, #e0f2fe, transparent 25%),
-    radial-gradient(circle at 80% 0%, #ccfbf1, transparent 22%),
+  background: radial-gradient(circle at 15% 10%, #f3d9c6, transparent 28%),
+    radial-gradient(circle at 85% 0%, #f7e7d2, transparent 24%),
     var(--canvas);
   color: var(--ink);
 }
@@ -98,14 +98,8 @@ body {
 
 .post-card-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1rem;
-}
-
-@media (min-width: 900px) {
-  .post-card-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
 }
 
 .post-card {
@@ -233,8 +227,9 @@ body {
 }
 
 .author__avatar img {
-  width: 150px;
-  height: 150px;
+  width: 190px;
+  height: 190px;
   border-radius: 50%;
   object-fit: cover;
+  aspect-ratio: 1 / 1;
 }
