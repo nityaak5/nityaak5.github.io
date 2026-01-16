@@ -15,19 +15,17 @@ I write about tech, lifestyle and everything in between. Use filters to jump to 
 
 {% capture blog_cards %}
   {% for post in site.posts %}
-    {% if post.categories contains "blog" or post.categories contains "thinking-aloud" %}
-      {% assign downcase_categories = post.categories | join: ' ' | downcase %}
-      <article class="post-card" data-categories="{{ downcase_categories }}">
-        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-        <p class="post-card-meta">{{ post.date | date: "%B %d, %Y" }}</p>
-        {% if post.excerpt %}
-        <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
-        {% endif %}
-        {% if post.categories %}
-        <p class="post-card-tags">Categories: {{ post.categories | join: ", " }}</p>
-        {% endif %}
-      </article>
-    {% endif %}
+    {% assign downcase_categories = post.categories | join: ' ' | downcase %}
+    <article class="post-card" data-categories="{{ downcase_categories }}">
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      <p class="post-card-meta">{{ post.date | date: "%B %d, %Y" }}</p>
+      {% if post.excerpt %}
+      <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
+      {% endif %}
+      {% if post.categories %}
+      <p class="post-card-tags">Categories: {{ post.categories | join: ", " }}</p>
+      {% endif %}
+    </article>
   {% endfor %}
 {% endcapture %}
 
@@ -36,7 +34,7 @@ I write about tech, lifestyle and everything in between. Use filters to jump to 
   {{ blog_cards }}
 </div>
 {% else %}
-<p class="notice">No blog posts yet. Add new posts under <code>_posts</code> with a <code>blog</code> or <code>thinking-aloud</code> category to have them appear here.</p>
+<p class="notice">No blog posts yet. Add new posts under <code>_posts</code> to have them appear here.</p>
 {% endif %}
 
 <hr />
