@@ -4,7 +4,7 @@ layout: single
 permalink: /experience/
 ---
 
-Highlights from roles, internships, and research work. You can also find details on my
+You can also find details on my
 <a href="https://www.linkedin.com/in/nityaakalra/" target="_blank" rel="noopener">LinkedIn profile</a>.
 
 <section class="timeline">

@@ -3,8 +3,7 @@ title: "Blog"
 layout: single
 permalink: /blog/
 ---
-
-Welcome to the blog. Posts here cover updates, notes, and reflections. Use the filters to jump to what you need.
+I write about tech, lifestyle and everything in between. Use filters to jump to what you wish to read. 
 
 <div class="filter-chip-bar" id="blog-filter">
   <button class="filter-chip is-active" data-filter="all">All</button>
@@ -39,6 +38,15 @@ Welcome to the blog. Posts here cover updates, notes, and reflections. Use the f
 {% else %}
 <p class="notice">No blog posts yet. Add new posts under <code>_posts</code> with a <code>blog</code> or <code>thinking-aloud</code> category to have them appear here.</p>
 {% endif %}
+
+<hr />
+
+<h2>Medium</h2>
+<p>
+  Also check out: 
+  <a href="https://medium.com/@nityaakalra5" target="_blank" rel="noopener">Medium</a>.
+</p>
+
 
 <script>
   (function () {
