@@ -3,6 +3,8 @@ title: "Not Everyone’s Mirror"
 date: 2026-04-23
 categories:
   - blog
+  - research
+  - tech
 tags:
   - "ai-alignment-and-safety"
   - "llm"
