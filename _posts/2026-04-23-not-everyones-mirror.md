@@ -12,6 +12,8 @@ tags:
 medium_url: "https://medium.com/@nityaakalra5/not-everyones-mirror-cfa09857a78c?source=rss-2b7b285a116d------2"
 ---
 
+Original Medium post: [Not Everyone's Mirror](https://medium.com/@nityaakalra5/not-everyones-mirror-cfa09857a78c?source=rss-2b7b285a116d------2)
+
 > In my last post on AI hallucinations, I ended with a question: are we building a tool for truth or a mirror of ourselves? I thought I was done there. But the more I sat with it, the more it started to unravel something bigger. Because if AI systems really are mirrors, then the next question is not about hallucinations. It is about AI alignment.
 
 ![](https://cdn-images-1.medium.com/max/1024/1*_TjkXQtshjx9DHkMju86bQ.png)
