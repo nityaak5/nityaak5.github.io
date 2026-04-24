@@ -117,8 +117,10 @@ def main():
             f'---\n\n'
         )
 
+        origin_line = f'_Originally published on [Medium]({post_url})._\n\n'
+
         with open(filepath, "w", encoding="utf-8") as f:
-            f.write(frontmatter + markdown_body + "\n")
+            f.write(frontmatter + origin_line + markdown_body + "\n")
 
         print(f"  created: {filename}")
         new_count += 1
