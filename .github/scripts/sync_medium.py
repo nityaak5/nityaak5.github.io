@@ -117,7 +117,7 @@ def main():
             f'---\n\n'
         )
 
-        origin_line = f'_Originally published on [Medium]({post_url})._\n\n'
+        origin_line = f'Original Medium post: [{title}]({post_url})\n\n'
 
         with open(filepath, "w", encoding="utf-8") as f:
             f.write(frontmatter + origin_line + markdown_body + "\n")
