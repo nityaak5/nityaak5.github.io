@@ -3,6 +3,7 @@ title: "A little all over the place"
 date: 2026-08-02
 categories:
   - blog
+  - life
 tags:
   - "thoughts"
   - "life"

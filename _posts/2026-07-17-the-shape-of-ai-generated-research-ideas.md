@@ -3,6 +3,8 @@ title: "The Shape of AI-Generated Research Ideas"
 date: 2026-07-17
 categories:
   - blog
+  - research
+  - tech
 tags:
   - "responsible-ai"
   - "llm"

@@ -2,7 +2,8 @@
 title: "Evals, from the ground up"
 date: 2026-09-19
 categories:
-  - blog
+  - tech
+  - research
 tags:
   - "responsible-ai"
   - "ai-evaluation"
