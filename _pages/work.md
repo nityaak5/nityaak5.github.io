@@ -4,18 +4,16 @@ layout: single
 permalink: /work/
 ---
 
-Currently, I teach Technical AI Safety at SAIN and work on small language models at Tilburg University. Publications and citations are on
+Currently, I teach Technical AI Safety at SAIN and work on AI Safety evaluations. Publications and citations are on
 <a href="https://scholar.google.com/citations?user=e7DfQkUAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>.
 
-<h2>Featured work</h2>
+<h2>Recent work</h2>
 <div class="post-card-grid featured-grid">
   <article class="post-card is-featured">
     <span class="feature-tag">Ongoing · AI evaluation</span>
     <h3>Refusal Calibration: Does a Model Refuse What It Should, and Only That?</h3>
-    <p class="post-card-meta">2026 · Evals from the ground up</p>
     <p>An end-to-end safety evaluation of four language models (GPT-5.6, Llama 3.1 8B, Ministral 8B, Qwen3.5 9B) on 450 XSTest prompts, run with Inspect and scored by an LLM judge. It measures both over-refusal and under-refusal.</p>
     <p>I then audited the judge itself by hand-labelling 100 responses. The audit overturned most of its under-refusal flags and changed my headline results. A good reminder that an evaluation is only as trustworthy as its scorer.</p>
-    <p class="post-card-tags">Skills: evaluation design, LLM-as-a-judge, Inspect, AI safety</p>
     <p>
       <a href="https://github.com/nityaak5/LLM-evals/tree/main/projects/refusal-calibration" target="_blank" rel="noopener">GitHub</a> ·
       <a href="{% post_url 2026-09-19-evals-from-the-ground-up %}">Part 1: why evals</a> ·
@@ -25,12 +23,11 @@ Currently, I teach Technical AI Safety at SAIN and work on small language models
   </article>
 
   <article class="post-card is-featured">
-    <span class="feature-tag">Completed · Published at NLP4PI 2026</span>
+    <span class="feature-tag">Completed · Published at NLP4PI @ EMNLP 2026</span>
     <h3>Where Do Predictions Go? Class-Level Shifts and Carbon Cost in Stance Detection</h3>
     <p class="post-card-meta">With Jisk J. Attema and Dimitar Shterionov · Tilburg University</p>
     <p>Stance detection is used to summarise public opinion, but aggregate scores like macro-F1 can hide how a model spreads its predictions across support, opposition and neutral. We compare language models and supervised baselines on three stance datasets with different definitions of neutrality, looking at accuracy, class-level behaviour and environmental impact.</p>
     <p>Language models don't consistently beat supervised baselines, some keep the same class-level biases across datasets and prompts, and gains saturate at around 4B to 8B parameters.</p>
-    <p class="post-card-tags">Skills: small language models, stance detection, bias, carbon tracking</p>
     <p>
       <a href="https://aclanthology.org/2026.nlp4pi-1.43/" target="_blank" rel="noopener">Paper</a> ·
       <a href="https://aclanthology.org/2026.nlp4pi-1.43.pdf" target="_blank" rel="noopener">PDF</a> ·
