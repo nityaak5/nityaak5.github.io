@@ -48,10 +48,7 @@ author:
   avatar: "/assets/images/nk.JPG"
   # bio: "AI researcher | NLP |  Responsible AI | Explainable AI"
   links:
-    - label: "Email (Work)"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:n.kalra@tilburguniversity.edu"
-    - label: "Email (Personal)"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:nityaak5@gmail.com"
     - label: "GitHub"
@@ -75,10 +72,7 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/nityaakalra"
-    - label: "Email (Work)"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:n.kalra@tilburguniversity.edu"
-    - label: "Email (Personal)"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:nityaak5@gmail.com"
 
