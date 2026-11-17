@@ -12,8 +12,7 @@ Currently, I teach Technical AI Safety at SAIN and work on AI Safety evaluations
   <article class="post-card is-featured">
     <span class="feature-tag">Ongoing · AI evaluation</span>
     <h3>Refusal Calibration: Does a Model Refuse What It Should, and Only That?</h3>
-    <p>An end-to-end safety evaluation of four language models (GPT-5.6, Llama 3.1 8B, Ministral 8B, Qwen3.5 9B) on 450 XSTest prompts, run with Inspect and scored by an LLM judge. It measures both over-refusal and under-refusal.</p>
-    <p>I then audited the judge itself by hand-labelling 100 responses. The audit overturned most of its under-refusal flags and changed my headline results. A good reminder that an evaluation is only as trustworthy as its scorer.</p>
+    <p>An end-to-end eval of over- and under-refusal in four language models, scored by an LLM judge. I then hand-labelled 100 responses to audit the judge, and the audit changed my headline results.</p>
     <p>
       <a href="https://github.com/nityaak5/LLM-evals/tree/main/projects/refusal-calibration" target="_blank" rel="noopener">GitHub</a> ·
       <a href="{% post_url 2026-09-19-evals-from-the-ground-up %}">Part 1: why evals</a> ·
@@ -26,8 +25,7 @@ Currently, I teach Technical AI Safety at SAIN and work on AI Safety evaluations
     <span class="feature-tag">Completed · Published at NLP4PI @ EMNLP 2026</span>
     <h3>Where Do Predictions Go? Class-Level Shifts and Carbon Cost in Stance Detection</h3>
     <p class="post-card-meta">With Jisk J. Attema and Dimitar Shterionov · Tilburg University</p>
-    <p>Stance detection is used to summarise public opinion, but aggregate scores like macro-F1 can hide how a model spreads its predictions across support, opposition and neutral. We compare language models and supervised baselines on three stance datasets with different definitions of neutrality, looking at accuracy, class-level behaviour and environmental impact.</p>
-    <p>Language models don't consistently beat supervised baselines, some keep the same class-level biases across datasets and prompts, and gains saturate at around 4B to 8B parameters.</p>
+    <p>Aggregate scores like macro-F1 can hide how a model spreads its predictions across stance classes. We compare language models and supervised baselines on three datasets, looking at class-level behaviour and carbon cost. Language models don't consistently win, and gains saturate at 4B to 8B parameters.</p>
     <p>
       <a href="https://aclanthology.org/2026.nlp4pi-1.43/" target="_blank" rel="noopener">Paper</a> ·
       <a href="https://aclanthology.org/2026.nlp4pi-1.43.pdf" target="_blank" rel="noopener">PDF</a> ·
