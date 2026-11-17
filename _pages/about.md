@@ -1,19 +1,50 @@
 ---
-permalink: /
+
+## permalink: /
 title: "About"
+classes: home-page
 author_profile: true
----
-Hi, I’m Nityaa, an AI researcher working in natural language processing (NLP) with a strong focus on explainable, responsible, and ethical AI.
 
-I am  interested in building and evaluating systems that make model behavior transparent, interpretable, and easier to audit, especially in high-stakes or socially sensitive settings.
+Safe · Responsible · Trustworthy AI
 
-I am  currently at Tilburg University, where I work on designing small language models and LLM fairness. My master thesis was about thematic bias in book recommender systems. Feel free to check it out [here](https://arxiv.org/abs/2508.15643).
+# Hi!
 
-More broadly, my interests include:
-- Ethical and responsible AI practices across the ML lifecycle
-- Explainability and interpretability for NLP models
-- Understanding and mitigating bias in data and models
-- The human side of AI work, including how models are used and understood in practice
+I'm Nityaa, a research engineer working on safe and responsible AI. I care about the whole picture: whether models behave as we intend, whom they serve and whom they leave out, how open and accountable they are, and how we can tell.
 
-I occasionally write about research workflows, projects I build, and lessons learned from applied ML research.
-If you would like to collaborate or chat, feel free to reach out! 
+[See my work →]({{ '/work/' | relative_url }}) [Read my writing]({{ '/blog/' | relative_url }})
+
+## What I care about
+
+🛡️
+
+### Safety & alignment
+
+Do models behave the way we intend, and whose values are they aligned to? From refusals to alignment faking.
+
+⚖️
+
+### Fairness & bias
+
+Bias in LLMs and recommender systems: who gets seen, who gets stereotyped and who gets left out.
+
+🔍
+
+### Transparency & explainability
+
+Making model behaviour interpretable and auditable, especially when the stakes are high.
+
+🏛️
+
+### Openness & governance
+
+What makes a model truly "open"? Licensing, accountability and EU regulation of generative AI.
+
+## Outside work, you'll probably find me chasing a sunset 🌅
+
+I fell in love with Nijmegen, the oldest city in the Netherlands, twice: first as a student in green, quiet Vossenveld with a river behind my house, and then again living right in the middle of it all. My favourite ritual is a long walk along the Waal, ideally ending on a bench at Valkhof park while the sky does its thing.
+
+The rest of the time I'm reading (five days without a book counts as a long break), filling pages of my diary, or writing on Medium. You can check out my posts here:
+
+[AI posts You, Me & AI → Everything else Yours Truly, Caffeinated →](https://medium.com/you-me-ai)
+
+Want to talk safe AI, books, or the best sunset spots in Nijmegen? [Say hi!](mailto:nityaak5@gmail.com)
