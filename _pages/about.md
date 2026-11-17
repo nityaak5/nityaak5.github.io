@@ -6,15 +6,14 @@ author_profile: true
 ---
 
 <section class="hero">
-  <p class="hero-eyebrow">Safe · Responsible · Trustworthy AI</p>
-  <h1 class="hero-title">Hi!</h1>
+  
   <p class="hero-lede">
-    I'm Nityaa, a research engineer working on safe and responsible AI. I care about the whole picture:
+    Hi, I'm Nityaa, a research engineer working on safe and responsible AI. I care about the whole picture:
     whether models behave as we intend, whom they serve and whom they leave out, how open and accountable
     they are, and how we can tell.
   </p>
   <div class="hero-actions">
-    <a class="btn-cta" href="{{ '/work/' | relative_url }}">See my work →</a>
+    <a class="btn-cta" href="{{ '/work/' | relative_url }}">See my work </a>
     <a class="btn-ghost" href="{{ '/blog/' | relative_url }}">Read my writing</a>
   </div>
 </section>
@@ -23,22 +22,22 @@ author_profile: true
 
 <div class="focus-grid">
   <div class="focus-card">
-    <span class="focus-icon">🛡️</span>
+    
     <h3>Safety & alignment</h3>
     <p>Do models behave the way we intend, and whose values are they aligned to? From refusals to alignment faking.</p>
   </div>
   <div class="focus-card">
-    <span class="focus-icon">⚖️</span>
+   
     <h3>Fairness & bias</h3>
     <p>Bias in LLMs and recommender systems: who gets seen, who gets stereotyped and who gets left out.</p>
   </div>
   <div class="focus-card">
-    <span class="focus-icon">🔍</span>
+  
     <h3>Transparency & explainability</h3>
     <p>Making model behaviour interpretable and auditable, especially when the stakes are high.</p>
   </div>
   <div class="focus-card">
-    <span class="focus-icon">🏛️</span>
+    
     <h3>Openness & governance</h3>
     <p>What makes a model truly "open"? Licensing, accountability and EU regulation of generative AI.</p>
   </div>
@@ -58,13 +57,10 @@ author_profile: true
   <div class="medium-links">
     <a class="medium-link" href="https://medium.com/you-me-ai" target="_blank" rel="noopener">
       <span class="medium-link-kicker">AI posts</span>
-      <span class="medium-link-name">You, Me &amp; AI →</span>
     </a>
     <a class="medium-link" href="https://medium.com/yours-truly-caffeinated" target="_blank" rel="noopener">
       <span class="medium-link-kicker">Everything else</span>
-      <span class="medium-link-name">Yours Truly, Caffeinated →</span>
     </a>
   </div>
 </section>
 
-<p class="hero-footnote">Want to talk safe AI, books, or the best sunset spots in Nijmegen? <a href="mailto:nityaak5@gmail.com">Say hi!</a></p>
