@@ -253,10 +253,11 @@ body {
   margin: 0 0 2rem;
   padding: 2.5rem 2rem;
   border-radius: 20px;
-  background: linear-gradient(135deg, #1f1a17 0%, #3b2a22 55%, #b4532a 140%);
-  color: #fdf6ef;
+  background: linear-gradient(160deg, #fff4ea 0%, #fde7d4 55%, #f3c597 130%);
+  border: 1px solid #f3d6bb;
+  color: var(--ink);
   overflow: hidden;
-  box-shadow: 0 30px 60px -40px rgba(31, 26, 23, 0.9);
+  box-shadow: 0 30px 60px -45px rgba(180, 83, 42, 0.55);
 }
 
 .hero::after {
@@ -267,7 +268,7 @@ body {
   width: 260px;
   height: 260px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(224, 164, 88, 0.45), transparent 70%);
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.7), transparent 70%);
   pointer-events: none;
 }
 
@@ -275,31 +276,31 @@ body {
   display: inline-block;
   margin: 0 0 1rem;
   padding: 0.25rem 0.75rem;
-  border: 1px solid rgba(253, 231, 212, 0.35);
+  border: 1px solid rgba(180, 83, 42, 0.35);
   border-radius: 999px;
   font-size: 0.8rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--highlight);
+  color: var(--accent);
 }
 
 .page__content .hero-title {
   margin: 0 0 1rem;
   font-size: clamp(1.7rem, 4vw, 2.6rem);
   line-height: 1.15;
-  color: #fdf6ef;
+  color: var(--ink);
   border: none;
 }
 
 .hero-title span {
-  color: var(--highlight);
+  color: var(--accent);
 }
 
 .hero-lede {
   max-width: 38rem;
   font-size: 1.05rem;
   line-height: 1.6;
-  color: #f1e3d6;
+  color: var(--ink);
 }
 
 .hero-actions {
@@ -321,21 +322,21 @@ body {
 }
 
 .page__content .btn-cta {
-  background: var(--highlight);
-  color: #1f1a17;
+  background: var(--accent);
+  color: #fff;
 }
 
 .page__content .btn-ghost {
-  border: 1px solid rgba(253, 231, 212, 0.5);
-  color: #fdf6ef;
+  border: 1px solid rgba(180, 83, 42, 0.5);
+  color: var(--accent);
 }
 
 .page__content .btn-cta:hover,
 .page__content .btn-ghost:hover {
   transform: translateY(-2px);
   border-bottom: none;
-  color: #1f1a17;
-  background: #fde7d4;
+  color: #fff;
+  background: var(--ink);
 }
 
 /* ---------- Stats ---------- */

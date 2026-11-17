@@ -2,7 +2,9 @@
 title: "Evals, from the ground up -Part 2"
 date: 2026-10-07
 categories:
-  - blog
+categories:
+  - tech
+  - research
 tags:
   - "responsible-ai"
   - "ai-safety"

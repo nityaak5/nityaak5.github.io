@@ -2,7 +2,9 @@
 title: "Evals, from the ground up (Part 3): Judging the Judge"
 date: 2026-10-24
 categories:
-  - blog
+categories:
+  - tech
+  - research
 tags:
   - "ai-safety"
   - "ai-evaluation"
