@@ -1,50 +1,70 @@
 ---
-
-## permalink: /
+permalink: /
 title: "About"
 classes: home-page
 author_profile: true
+---
 
-Safe · Responsible · Trustworthy AI
-
-# Hi!
-
-I'm Nityaa, a research engineer working on safe and responsible AI. I care about the whole picture: whether models behave as we intend, whom they serve and whom they leave out, how open and accountable they are, and how we can tell.
-
-[See my work →]({{ '/work/' | relative_url }}) [Read my writing]({{ '/blog/' | relative_url }})
+<section class="hero">
+  <p class="hero-eyebrow">Safe · Responsible · Trustworthy AI</p>
+  <h1 class="hero-title">Hi!</h1>
+  <p class="hero-lede">
+    I'm Nityaa, a research engineer working on safe and responsible AI. I care about the whole picture:
+    whether models behave as we intend, whom they serve and whom they leave out, how open and accountable
+    they are, and how we can tell.
+  </p>
+  <div class="hero-actions">
+    <a class="btn-cta" href="{{ '/work/' | relative_url }}">See my work →</a>
+    <a class="btn-ghost" href="{{ '/blog/' | relative_url }}">Read my writing</a>
+  </div>
+</section>
 
 ## What I care about
 
-🛡️
+<div class="focus-grid">
+  <div class="focus-card">
+    <span class="focus-icon">🛡️</span>
+    <h3>Safety & alignment</h3>
+    <p>Do models behave the way we intend, and whose values are they aligned to? From refusals to alignment faking.</p>
+  </div>
+  <div class="focus-card">
+    <span class="focus-icon">⚖️</span>
+    <h3>Fairness & bias</h3>
+    <p>Bias in LLMs and recommender systems: who gets seen, who gets stereotyped and who gets left out.</p>
+  </div>
+  <div class="focus-card">
+    <span class="focus-icon">🔍</span>
+    <h3>Transparency & explainability</h3>
+    <p>Making model behaviour interpretable and auditable, especially when the stakes are high.</p>
+  </div>
+  <div class="focus-card">
+    <span class="focus-icon">🏛️</span>
+    <h3>Openness & governance</h3>
+    <p>What makes a model truly "open"? Licensing, accountability and EU regulation of generative AI.</p>
+  </div>
+</div>
 
-### Safety & alignment
+<section class="offclock">
+  <h2>Outside work, you'll probably find me chasing a sunset 🌅</h2>
+  <p>
+    I fell in love with Nijmegen, the oldest city in the Netherlands, twice: first as a student in green, quiet
+    Vossenveld with a river behind my house, and then again living right in the middle of it all. My favourite
+    ritual is a long walk along the Waal, ideally ending on a bench at Valkhof park while the sky does its thing.
+  </p>
+  <p>
+    The rest of the time I'm reading (five days without a book counts as a long break), filling pages of my
+    diary, or writing on Medium. You can check out my posts here:
+  </p>
+  <div class="medium-links">
+    <a class="medium-link" href="https://medium.com/you-me-ai" target="_blank" rel="noopener">
+      <span class="medium-link-kicker">AI posts</span>
+      <span class="medium-link-name">You, Me &amp; AI →</span>
+    </a>
+    <a class="medium-link" href="https://medium.com/yours-truly-caffeinated" target="_blank" rel="noopener">
+      <span class="medium-link-kicker">Everything else</span>
+      <span class="medium-link-name">Yours Truly, Caffeinated →</span>
+    </a>
+  </div>
+</section>
 
-Do models behave the way we intend, and whose values are they aligned to? From refusals to alignment faking.
-
-⚖️
-
-### Fairness & bias
-
-Bias in LLMs and recommender systems: who gets seen, who gets stereotyped and who gets left out.
-
-🔍
-
-### Transparency & explainability
-
-Making model behaviour interpretable and auditable, especially when the stakes are high.
-
-🏛️
-
-### Openness & governance
-
-What makes a model truly "open"? Licensing, accountability and EU regulation of generative AI.
-
-## Outside work, you'll probably find me chasing a sunset 🌅
-
-I fell in love with Nijmegen, the oldest city in the Netherlands, twice: first as a student in green, quiet Vossenveld with a river behind my house, and then again living right in the middle of it all. My favourite ritual is a long walk along the Waal, ideally ending on a bench at Valkhof park while the sky does its thing.
-
-The rest of the time I'm reading (five days without a book counts as a long break), filling pages of my diary, or writing on Medium. You can check out my posts here:
-
-[AI posts You, Me & AI → Everything else Yours Truly, Caffeinated →](https://medium.com/you-me-ai)
-
-Want to talk safe AI, books, or the best sunset spots in Nijmegen? [Say hi!](mailto:nityaak5@gmail.com)
+<p class="hero-footnote">Want to talk safe AI, books, or the best sunset spots in Nijmegen? <a href="mailto:nityaak5@gmail.com">Say hi!</a></p>
