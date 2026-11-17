@@ -8,13 +8,31 @@ You can also find details on my
 <a href="https://www.linkedin.com/in/nityaakalra/" target="_blank" rel="noopener">LinkedIn profile</a>.
 
 <section class="timeline">
+  <article class="timeline-card is-current">
+    <div class="timeline-meta">
+      <span class="timeline-date">Oct 2026 - Present</span>
+      <span class="timeline-location">Utrecht, The Netherlands</span>
+    </div>
+    <h2>Course Instructor, Technical AI Safety · SAIN (Safe AI Netherlands)</h2>
+    <p class="timeline-summary">
+      I teach Technical AI Safety, a course on how we make advanced AI systems safe and how we know whether they are.
+      I lead the evaluations part of the course, where participants learn to turn a safety concern into something
+      measurable: threat modelling, writing a specification, building a dataset, scoring with LLM judges, and
+      checking whether the evaluation itself can be trusted.
+    </p>
+  </article>
+
   <article class="timeline-card">
     <div class="timeline-meta">
       <span class="timeline-date">Oct 2025 - Present</span>
       <span class="timeline-location">Tilburg, North Brabant, The Netherlands</span>
     </div>
     <h2>Research Engineer · Tilburg University</h2>
-    <p class="timeline-summary">Working on development of SLMs and LLM fairness.</p>
+    <p class="timeline-summary">
+      I work on small language models (SLMs) for a range of use cases, with bias and environmental impact in mind
+      from the start. This means fine-tuning and evaluating SLMs for tasks such as stance detection and topic modelling,
+      auditing how they behave across groups and topics, and tracking the energy and carbon cost of training and inference.
+    </p>
   </article>
 
   <article class="timeline-card">

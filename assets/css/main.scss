@@ -584,3 +584,21 @@ body {
   font-size: 1.05rem;
   font-weight: 700;
 }
+
+/* ---------- Current role highlight ---------- */
+.timeline-card.is-current {
+  border-color: var(--accent);
+  background: linear-gradient(180deg, #fff 0%, #fdf3ea 100%);
+}
+
+.timeline-card.is-current .timeline-date::after {
+  content: "Current";
+  margin-left: 0.5rem;
+  padding: 0.05rem 0.45rem;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}

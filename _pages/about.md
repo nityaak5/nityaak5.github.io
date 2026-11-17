@@ -8,7 +8,7 @@ author_profile: true
 <section class="hero">
   
   <p class="hero-lede">
-    Hi, I'm Nityaa, a research engineer working on safe and responsible AI. I care about the whole picture:
+    Hi, I'm Nityaa, a researcher working on safe and responsible AI. I care about the whole picture:
     whether models behave as we intend, whom they serve and whom they leave out, how open and accountable
     they are, and how we can tell.
   </p>
